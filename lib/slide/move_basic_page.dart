@@ -14,7 +14,7 @@ class MoveBasicPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(32),
+        padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 60),
         child: Stack(
           children: [
             InAppWebView(
